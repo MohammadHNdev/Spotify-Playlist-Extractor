@@ -184,19 +184,3 @@ Telegram: DiamondcodeTech
 Feel free to reach out for any questions or collaborations!
 
 
-### نحوه استفاده از این `README.md`:
-
-1.  **فایل `README.md` رو بساز:**
-    *   در صفحه مخزن جدیدی که در گیت‌هاب ساختی، روی دکمه **`Add file`** کلیک کن و بعد **`Create new file`** رو انتخاب کن.
-    *   در کادر اسم فایل، بنویس: `README.md`
-    *   محتوای کامل کد بالا رو کپی کن و در کادر بزرگ متن (ویرایشگر) پیست کن.
-
-2.  **اطلاعات رو به‌روز کن:**
-    *   خط `![SpotTrack Logo](https://cdn.abacus.ai/images/cf713fb9-2f9f-411d-ac9f-566f1923da7c.png)`: اگر لوگوی بهتری داری، آدرسش رو اینجا جایگزین کن. اگر نه، می‌تونی همین رو نگه داری یا کلاً حذفش کنی.
-    *   خط `git clone https://github.com/MohammadHNDev/SpotTrack-Streamlit-App.git`: **این آدرس رو با آدرس واقعی مخزن خودت در گیت‌هاب جایگزین کن.**
-
-3.  **ذخیره کن:**
-    *   یک پیام (Commit message) بنویس، مثلاً: `Add comprehensive dual-language README.md`.
-    *   روی دکمه سبز رنگ **`Commit new file`** کلیک کن.
-
-حالا `README.md` شما هم فارسی و هم انگلیسی هست و تمام اطلاعات لازم رو به بازدیدکنندگان مخزنتون میده.
