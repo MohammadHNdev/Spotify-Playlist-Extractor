@@ -1,7 +1,7 @@
 # SpotTrack - Spotify Playlist Extractor (Web App)
 
-![SpotTrack Logo](https://cdn.abacus.ai/images/cf713fb9-2f9f-411d-ac9f-566f1923da7c.png)
-*(توجه: در صورت داشتن لوگوی واقعی، آدرس آن را اینجا جایگزین کنید یا این خط را حذف کنید.)*
+![Python Project Icon](https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg)
+
 
 ---
 
