@@ -1,0 +1,151 @@
+/* styles/style.css */
+
+/* Style for the main container of each card */
+.track-card-container {
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Inner spacing */
+    margin-bottom: 20px; /* Space between cards */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #fff; /* White background */
+    text-align: center; /* Center align content */
+    overflow: hidden; /* Hide overflow */
+}
+
+/* Style for the album image */
+.track-card-container img {
+    border-radius: 4px; /* Slightly rounded corners for image */
+    margin-bottom: 10px; /* Space below image */
+    /* Added for better image display */
+    aspect-ratio: 1 / 1; /* Ensure image is square */
+    object-fit: cover; /* Cover the area without distortion */
+}
+
+/* Style for track name */
+.track-card-container h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1em; /* Adjust font size */
+    color: #1DB954; /* Spotify green */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis for overflow */
+}
+
+/* Style for artist name */
+.track-card-container p {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 0.9em; /* Adjust font size */
+    color: #555; /* Dark grey */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Style for album name */
+.track-card-container p:last-of-type {
+     margin-bottom: 15px; /* Space below album name */
+}
+
+
+/* Style for buttons within the card */
+.track-card-container .stButton > button {
+    width: 100%; /* Make buttons take full width of the column */
+    margin-bottom: 5px; /* Space between buttons */
+    border-radius: 20px; /* Rounded buttons */
+}
+
+/* Style for link buttons (Telegram download) */
+.track-card-container .stLinkButton > a {
+    display: inline-block; /* Make it behave like a block for width */
+    width: 100%; /* Make link button take full width */
+    background-color: #0088cc; /* Telegram blue */
+    color: white !important; /* Ensure text is white */
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center; /* Center text in link button */
+}
+
+.track-card-container .stLinkButton > a:hover {
+    background-color: #0077b3; /* Darker blue on hover */
+}
+
+/* Style for copy button */
+/* We'll target the copy button specifically if needed, or rely on default Streamlit button style */
+/* Example if you want a different style for copy button: */
+/*
+.track-card-container .stButton > button[kind="secondary"] {
+     background-color: #6c757d;
+     color: white;
+}
+*/
+
+
+/* Optional: Style for the separator line */
+.track-card-container hr {
+    margin-top: 15px;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid #eee; /* Light grey line */
+}
+
+
+/* --- New Styles for Playlist Info --- */
+.playlist-info-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically align items */
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.playlist-info-container img {
+    width: 150px; /* Fixed width for playlist cover */
+    height: 150px; /* Fixed height */
+    border-radius: 8px;
+    margin-right: 20px; /* Space between image and text */
+    object-fit: cover;
+}
+
+.playlist-details {
+    flex-grow: 1; /* Allow details section to take available space */
+}
+
+.playlist-details h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #1DB954; /* Spotify green */
+}
+
+.playlist-details p {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Responsive adjustments for playlist info */
+@media (max-width: 600px) {
+    .playlist-info-container {
+        flex-direction: column; /* Stack items vertically on small screens */
+        text-align: center;
+    }
+    .playlist-info-container img {
+        margin-right: 0;
+        margin-bottom: 15px; /* Space below image when stacked */
+    }
+}
+
+/* --- Style for the hidden text input used for copying --- */
+/* This input is made invisible but selectable by JS */
+.copy-text-input {
+    position: absolute; /* Position absolutely */
+    left: -9999px; /* Move off-screen */
+    top: -9999px;
+}
