@@ -8,7 +8,7 @@ pip install spotify-playlist-extractor
 
 ## 📋 پیش‌نیازها
 
-- **Python 3.7+** (پیشنهاد: 3.9+)
+- **Python 3.8+** (پیشنهاد: 3.10+)
 - **Spotify Developer Account** (رایگان)
 
 ## 🔧 نصب از سورس

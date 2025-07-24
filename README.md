@@ -5,7 +5,7 @@
 [![PyPI version](https://badge.fury.io/py/spotify-playlist-extractor.svg)](https://pypi.org/project/spotify-playlist-extractor/)
 [![Downloads](https://pepy.tech/badge/spotify-playlist-extractor)](https://pepy.tech/project/spotify-playlist-extractor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![GitHub stars](https://img.shields.io/github/stars/MohammadHNdev/Spotify-Playlist-Extractor.svg)](https://github.com/MohammadHNdev/Spotify-Playlist-Extractor/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/MohammadHNdev/Spotify-Playlist-Extractor.svg)](https://github.com/MohammadHNdev/Spotify-Playlist-Extractor/issues)
 [![Build Status](https://github.com/MohammadHNdev/Spotify-Playlist-Extractor/workflows/🧪%20Tests/badge.svg)](https://github.com/MohammadHNdev/Spotify-Playlist-Extractor/actions)
@@ -175,7 +175,7 @@ spotify-playlist-extractor/
 - ✅ آمارگیری کامل
 - ✅ Web UI (اختیاری)
 - ✅ حذف تکراری‌ها
-- ✅ Python 3.7+ support
+- ✅ Python 3.8+ support
 
 ## 🔧 CLI Commands
 
