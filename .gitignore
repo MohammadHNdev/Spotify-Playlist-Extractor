@@ -192,3 +192,26 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Project specific
+# Output files
+*.txt
+*.csv
+*.json
+!examples/*.txt
+!examples/*.csv
+!examples/*.json
+
+# Spotify credentials (security)
+credentials.py
+client_secrets.json
+.spotify_cache
+.cache-*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini

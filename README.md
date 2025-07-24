@@ -1,10 +1,23 @@
+<div align="center">
+
 # 🎵 Spotify Playlist Extractor
 
 [![PyPI version](https://badge.fury.io/py/spotify-playlist-extractor.svg)](https://pypi.org/project/spotify-playlist-extractor/)
+[![Downloads](https://pepy.tech/badge/spotify-playlist-extractor)](https://pepy.tech/project/spotify-playlist-extractor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![GitHub stars](https://img.shields.io/github/stars/MohammadHNdev/Spotify-Playlist-Extractor.svg)](https://github.com/MohammadHNdev/Spotify-Playlist-Extractor/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/MohammadHNdev/Spotify-Playlist-Extractor.svg)](https://github.com/MohammadHNdev/Spotify-Playlist-Extractor/issues)
+[![Build Status](https://github.com/MohammadHNdev/Spotify-Playlist-Extractor/workflows/🧪%20Tests/badge.svg)](https://github.com/MohammadHNdev/Spotify-Playlist-Extractor/actions)
+[![CodeFactor](https://www.codefactor.io/repository/github/mohammadhndev/spotify-playlist-extractor/badge)](https://www.codefactor.io/repository/github/mohammadhndev/spotify-playlist-extractor)
 
-**یه کتابخانه Python خیلی ساده برای استخراج پلی‌لیست‌های اسپاتیفای** 🚀
+**یه کتابخانه Python فوق‌العاده ساده و قدرتمند برای استخراج پلی‌لیست‌های اسپاتیفای** 🚀
+
+*Extract, analyze, and export Spotify playlists with ease!* 
+
+[🚀 نصب](#-نصب-فوری) • [📖 مستندات](#-نمونههای-کاربرد) • [💻 CLI](#خط-فرمان-cli) • [🤝 مشارکت](CONTRIBUTING.md) • [📝 تغییرات](CHANGELOG.md) • [❓ FAQ](docs/FAQ.md) • [📚 API](docs/API.md)
+
+</div>
 
 ## 💡 چیکار می‌کنه؟
 
