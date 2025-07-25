@@ -1,7 +1,7 @@
 # spotify_extractor package
 # ساده‌ترین راه برای استخراج پلی‌لیست اسپاتیفای
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __author__ = "Mohammad Hossein Norouzi"
 __email__ = "mohammadhn.dev@gmail.com"
 
