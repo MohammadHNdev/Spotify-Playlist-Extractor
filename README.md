@@ -22,9 +22,16 @@ Options:
 
 Examples:
 
+```bash
+# استخراج اطلاعات از پلی‌لیست اسپاتیفای
 python main.py https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd
+
+# خروجی به فرمت JSON
 python main.py -f json https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd
+
+# خروجی در فایل متنی دلخواه
 python main.py -o my_playlist.txt https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd
+
 
 Note: The Spotify API credentials are already included in the code.
 
