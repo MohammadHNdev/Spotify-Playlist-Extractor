@@ -21,8 +21,16 @@ Options:
 -o, --output    Output filename (optional)
 
 Examples:
+
 python main.py https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd
 python main.py -f json https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd
 python main.py -o my_playlist.txt https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd
 
 Note: The Spotify API credentials are already included in the code.
+
+
+
+
+
+
+https://github.com/MohammadHNdev/Spotify-Playlist-Extractor/blob/main/screen.jpg
