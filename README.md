@@ -22,7 +22,7 @@ Options:
 
 Examples:
 
-```bash
+
 # استخراج اطلاعات از پلی‌لیست اسپاتیفای
 python main.py https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd
 
