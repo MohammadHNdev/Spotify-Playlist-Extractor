@@ -33,4 +33,7 @@ Note: The Spotify API credentials are already included in the code.
 
 
 
-https://github.com/MohammadHNdev/Spotify-Playlist-Extractor/blob/main/screen.jpg
+<p align="center">
+  <img src="https://github.com/MohammadHNdev/Spotify-Playlist-Extractor/blob/main/screen.jpg" width="600">
+</p>
+
